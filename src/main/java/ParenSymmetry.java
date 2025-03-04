@@ -1,5 +1,9 @@
-import java.util.Arrays;
-import java.util.List;
+//import java.util.Arrays;
+//import java.util.List;
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
+
 
 public class ParenSymmetry {
 
@@ -17,6 +21,13 @@ public class ParenSymmetry {
     }
 
     private void checkFile(String filename) {
+        Scanner scanner = new Scanner(filename);
+            while (scanner.hasNextLine()) {
+                String newLine = scanner.nextLine();
+                System.out.println(isBalanced(newLine));
+            }
+            scanner.close();
+        }
         // open file named filename
 
         // for each line in the file
@@ -24,7 +35,7 @@ public class ParenSymmetry {
             // print whether or not the line's parenthesis are balanced
 
         // CLOSE the file
-    }
+
 
     public static void main(String[] args) {
         ParenSymmetry ps = new ParenSymmetry();
