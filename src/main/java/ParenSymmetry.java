@@ -4,16 +4,15 @@ import java.util.List;
 public class ParenSymmetry {
 
     public Boolean isBalanced(String s) {
-        int numOpenParens = 0;
-        int numCloseParens = 0;
+        int numParens = 0;
         for (int i = 0; i <= (s.length() - 1); i++) {
             if (s.charAt(i) == '(') {
-                numOpenParens++;
+                numParens++;
             } else if (s.charAt(i) == ')') {
-                numCloseParens++;
+                numParens--;
             }
         }
-        return numOpenParens == numCloseParens;
+        return numParens == 0;
         //return null;
     }
 

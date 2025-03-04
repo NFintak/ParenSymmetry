@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adb5b884-c783-4b8f-a7c8-37a1385a81d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ParenSymmetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParenSymmetry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +36,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "JUnit.ParenSymmetryTest.isBalanced1.executor": "Debug",
+    "Application.ParenSymmetry.executor": "Run",
+    "JUnit.ParenSymmetryTest.executor": "Run",
+    "JUnit.ParenSymmetryTest.isBalanced1.executor": "Run",
     "JUnit.ParenSymmetryTest.isBalanced2.executor": "Run",
+    "JUnit.ParenSymmetryTest.isBalanced3.executor": "Run",
+    "JUnit.ParenSymmetryTest.isBalanced4.executor": "Run",
     "JUnit.ParenSymmetryTest.isBalancedFalses.executor": "Run",
+    "JUnit.ParenSymmetryTest.isBalancedTrues.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -55,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParenSymmetry">
+  <component name="RunManager" selected="JUnit.ParenSymmetryTest">
     <configuration name="ParenSymmetry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ParenSymmetry" />
       <module name="ParenSymmetry" />
@@ -72,21 +76,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParenSymmetryTest.isBalanced4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParenSymmetryTest.isBalanced1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParenSymmetry" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParenSymmetryTest" />
-      <option name="METHOD_NAME" value="isBalanced4" />
+      <option name="METHOD_NAME" value="isBalanced1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParenSymmetryTest.isBalancedFalses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParenSymmetryTest.isBalanced4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParenSymmetry" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParenSymmetryTest" />
-      <option name="METHOD_NAME" value="isBalancedFalses" />
+      <option name="METHOD_NAME" value="isBalanced4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParenSymmetry" />
         <item itemvalue="JUnit.ParenSymmetryTest" />
+        <item itemvalue="JUnit.ParenSymmetryTest.isBalanced1" />
+        <item itemvalue="Application.ParenSymmetry" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalanced4" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalancedTrues" />
-        <item itemvalue="JUnit.ParenSymmetryTest.isBalancedFalses" />
       </list>
     </recent_temporary>
   </component>
@@ -133,16 +137,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ParenSymmetry.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
