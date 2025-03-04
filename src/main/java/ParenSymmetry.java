@@ -16,7 +16,7 @@ public class ParenSymmetry {
         //return null;
     }
 
-    private void checkFile(String filename) {
+    public void checkFile(String filename) {
         Scanner scanner = new Scanner(filename);
             while (scanner.hasNextLine()) {
                 String newLine = scanner.nextLine();
@@ -66,4 +66,6 @@ public class ParenSymmetry {
             System.out.println("Failure");
         }
     }
+    
+
 }
