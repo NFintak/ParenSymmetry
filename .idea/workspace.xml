@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb5b884-c783-4b8f-a7c8-37a1385a81d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ParenSymmetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParenSymmetry.java" afterDir="false" />
-    </list>
+    <list default="true" id="adb5b884-c783-4b8f-a7c8-37a1385a81d0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParenSymmetryTest">
+  <component name="RunManager" selected="Application.ParenSymmetry">
     <configuration name="ParenSymmetry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ParenSymmetry" />
       <module name="ParenSymmetry" />
@@ -108,9 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParenSymmetry" />
         <item itemvalue="JUnit.ParenSymmetryTest" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalanced1" />
-        <item itemvalue="Application.ParenSymmetry" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalanced4" />
         <item itemvalue="JUnit.ParenSymmetryTest.isBalancedTrues" />
       </list>
