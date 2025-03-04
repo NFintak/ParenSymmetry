@@ -4,7 +4,17 @@ import java.util.List;
 public class ParenSymmetry {
 
     public Boolean isBalanced(String s) {
-        return null;
+        int numOpenParens = 0;
+        int numCloseParens = 0;
+        for (int i = 0; i <= (s.length() - 1); i++) {
+            if (s.charAt(i) == '(') {
+                numOpenParens++;
+            } else if (s.charAt(i) == ')') {
+                numCloseParens++;
+            }
+        }
+        return numOpenParens == numCloseParens;
+        //return null;
     }
 
     private void checkFile(String filename) {
