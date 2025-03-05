@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 
 public class ParenSymmetry {
@@ -17,13 +19,17 @@ public class ParenSymmetry {
     }
 
     public void checkFile(String filename) {
-        Scanner scanner = new Scanner(filename);
+        try {
+            File newFile = new File(filename);
+            Scanner scanner = new Scanner(newFile);
             while (scanner.hasNextLine()) {
-                String newLine = scanner.nextLine();
-                System.out.println(isBalanced(newLine));
+                String data = scanner.nextLine();
+                System.out.println(isBalanced(data));
             }
             scanner.close();
+        } catch (FileNotFoundException e) {
         }
+    }
         // open file named filename
 
         // for each line in the file
@@ -35,6 +41,8 @@ public class ParenSymmetry {
 
     public static void main(String[] args) {
         ParenSymmetry ps = new ParenSymmetry();
+
+        ps.checkFile("TestStrings0.txt");
 
         Boolean b0 = ps.isBalanced("()");
         printResult(b0, true);
@@ -66,6 +74,6 @@ public class ParenSymmetry {
             System.out.println("Failure");
         }
     }
-    
+
 
 }
